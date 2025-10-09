@@ -1,2 +1,2 @@
 # jubilant-apple
-Defoult console Converter *.avi --> *.mp4
+Default console Converter *.avi --> *.mp4
