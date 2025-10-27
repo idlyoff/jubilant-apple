@@ -1,7 +1,7 @@
 import os
 import multiprocessing
 from pathlib import Path
-from moviepy import VideoFileClip   # ✅ правильный импорт
+from moviepy import VideoFileClip
 
 # Папка с AVI-файлами
 input_folder = Path(r"C:\Users\idlyo\OneDrive\Рабочий стол\avi")
@@ -33,3 +33,4 @@ if __name__ == "__main__":
             pool.map(convert_file, avi_files)
 
     print("Готово!")
+
